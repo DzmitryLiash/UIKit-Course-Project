@@ -35,6 +35,9 @@
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="X0r-a3-ZnE">
                                 <rect key="frame" x="18" y="220.33333333333334" width="392" height="31"/>
+                                <connections>
+                                    <action selector="sliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="rgJ-zH-yXK"/>
+                                </connections>
                             </slider>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -54,6 +57,7 @@
                     <connections>
                         <outlet property="mainLabel" destination="g7X-we-fyi" id="UYm-8r-edN"/>
                         <outlet property="segmentedControl" destination="VzM-7j-dUW" id="uwy-yu-DQt"/>
+                        <outlet property="slider" destination="X0r-a3-ZnE" id="5pX-YM-tvx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
